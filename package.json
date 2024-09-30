@@ -1,0 +1,19 @@
+{
+  "name": "tesis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoriarecchia/tesis.git"
+  },
+  "author": "Victoria Recchia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoriarecchia/tesis/issues"
+  },
+  "homepage": "https://github.com/victoriarecchia/tesis#readme",
+  "description": ""
+}
