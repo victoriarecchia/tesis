@@ -1,0 +1,61 @@
+.juego-memoria {
+  text-align: center;
+  padding: 20px;
+}
+
+.contenedor-juego {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.carta-memoria {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background-color: #4A90E2;
+  color: #FFFFFF;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.carta-memoria.volteada {
+  background-color: #979d99;
+  transform: rotateY(180deg);
+}
+
+.carta-memoria:hover {
+  background-color: #851717;
+}
+
+.mensaje-ganador {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #4CAF50;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #a31515;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.mensajeFinal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

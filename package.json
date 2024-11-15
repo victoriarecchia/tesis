@@ -15,5 +15,11 @@
     "url": "https://github.com/victoriarecchia/tesis/issues"
   },
   "homepage": "https://github.com/victoriarecchia/tesis#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@mui/icons-material": "^6.1.7",
+    "sweetalert2": "^11.6.13",
+    "tesis": "file:"
+  }
 }

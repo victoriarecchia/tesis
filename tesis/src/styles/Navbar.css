@@ -1,0 +1,80 @@
+header {
+    padding: 20px;
+    background: #011627;
+    height: 40px;
+}
+
+.sidenav {
+    width: 240px;
+    background: #011627;
+    position: absolute;
+    height: 95vh;
+    padding: 0 30px;
+    transition: all 0.5s;
+    left: -100%;
+}
+
+.sidenav.active {
+    left: 0;
+}
+
+.navbar-links {
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style-type: none;
+    margin: 10px;
+    position: relative;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+.navbar-links li a:hover,
+.navbar-links li a.active {
+    color: #f2f2f2;
+    background: #1d1a4f;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+    color: white;
+}
+
+header svg {
+    font-size: 40px;
+    color: white;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #1d1a4f;
+    padding: 0;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.submenu a {
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 14px;
+    display: block;
+}
+
+.submenu a:hover {
+    background-color: #333;
+}
+
+.navbar-links li:hover .submenu {
+    display: block;
+}

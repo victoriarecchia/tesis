@@ -1,0 +1,26 @@
+
+.inicio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.inicio-main {
+    text-align: center;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.inicio-main p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
